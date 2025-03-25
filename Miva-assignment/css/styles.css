@@ -3455,7 +3455,7 @@ body.menu-is-open {
     bottom             : 0;
     width              : 100%;
     height             : 100%;
-    background-image   : url(../images/intro-bg-3000.jpg);
+    background-image   : url(../images/intro-bg-3000.jpeg);
     background-repeat  : no-repeat;
     background-position: center;
     background-size    : cover;
@@ -4112,6 +4112,7 @@ body.menu-is-open {
     margin-right    : var(--vspace-0_5);
     border-radius   : 100%;
     outline         : none;
+    object-fit: cover;
 }
 
 .s-testimonials__cite {
@@ -4433,6 +4434,28 @@ body.menu-is-open {
     text-transform: uppercase;
     letter-spacing: 0.02em;
 }
+
+.marquee-container {
+    width: 100vw; /* Full width */
+    overflow: hidden;
+    padding: 60px 0 ;
+    position: relative;
+    margin: 0;
+  }
+
+  .marquee {
+    font-size: 120px;  /* Big text */
+    color: white;  /* White text */
+    font-weight: bold;  /* Bold */
+    white-space: nowrap;
+    display: block;
+    animation: marquee 12s linear infinite;
+  }
+
+  @keyframes marquee {
+    from { transform: translateX(-100%); } /* Start off-screen left */
+    to { transform: translateX(100%); } /* Move fully to the right */
+  }
 
 /* ------------------------------------------------------------------- 
  * ## copyright

@@ -5,7 +5,7 @@
     ================================================== -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Reservations - Mozart</title>
+    <title>Events - Mozart</title>
 
     <script>
       document.documentElement.classList.remove("no-js");
@@ -52,6 +52,14 @@
           </div>
 
           <a class="s-header__menu-toggle" href="#0"><span>Browse</span></a>
+
+          <div class="s-header__cta">
+            <a
+              href="reservations.html"
+              class="btn btn--primary s-header__cta-btn"
+              >Book a Table</a
+            >
+          </div>
         </div>
         <!-- end s-header__block -->
 
@@ -70,10 +78,8 @@
           <ul class="s-header__nav-links">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="events.html">Events</a></li>
-            <li class="current">
-              <a href="reservations.html">Reservations</a>
-            </li>
+            <li class="current"><a href="events.html">Events</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
             <li><a href="Contactus.html">Contact</a></li>
           </ul>
           <!-- s-header__nav-links -->
@@ -177,12 +183,12 @@
         <section
           class="s-pageheader pageheader"
           style="
-            background-image: url(images/pageheader/ageheader-reservations-bg-3000.jpeg);
+            background-image: url(images/pageheader/pageheader-event-bg-3000.jpeg);
           "
         >
           <div class="row">
             <div class="column xl-12 s-pageheader__content">
-              <h1 class="page-title">Reservations</h1>
+              <h1 class="page-title">Upcoming Events</h1>
             </div>
           </div>
         </section>
@@ -192,10 +198,11 @@
           <div class="row width-narrower pageintro text-center">
             <div class="column xl-12">
               <p class="lead">
-                Reserve Your Exclusive Mozart Experience whether you're looking
-                to secure a limited-edition piece, book a private styling
-                session, or attend an exclusive event, our reservation service
-                ensures you receive the highest level of attention.
+                At Mozart, fashion is more than just clothing—it’s an
+                experience. Our events are carefully curated to celebrate style,
+                creativity, and the art of self-expression. From exclusive
+                runway shows to intimate design showcases, every Mozart event is
+                a moment of magic.
               </p>
             </div>
           </div>
@@ -203,98 +210,88 @@
 
           <div class="row width-narrower content-block">
             <div class="column xl-12">
-              <form
-                name="rform"
-                id="rform"
-                class="reservation-form"
-                method="post"
-                action=""
-                autocomplete="off"
+              <div class="menu-block">
+                <div class="menu-block__group">
+                  <h2 class="h6 menu-block__cat-name">Fashion Week</h2>
+
+                  <ul class="menu-list">
+                    <li class="menu-list__item">
+                      <div class="menu-list__item-desc">
+                        <h4>The Grand Symphony Runway Show</h4>
+                        <p>June 15, 2025</p>
+                      </div>
+                      <div class="menu-list__item-price">
+                        <span>VIP</span>Access
+                      </div>
+                    </li>
+                    <li class="menu-list__item">
+                      <div class="menu-list__item-desc">
+                        <h4>
+                          Behind the Seams: An Exclusive Atelier Experience
+                        </h4>
+                        <p>July 10, 2025</p>
+                      </div>
+                      <div class="menu-list__item-price">
+                        <span></span> RSVP
+                      </div>
+                    </li>
+                    <li class="menu-list__item">
+                      <div class="menu-list__item-desc">
+                        <h4>A Night of Elegance: The Mozart Gala</h4>
+                        <p>August 22, 2025</p>
+                      </div>
+                      <div class="menu-list__item-price">
+                        <span></span>Tickets
+                      </div>
+                    </li>
+                    <li class="menu-list__item">
+                      <div class="menu-list__item-desc">
+                        <h4>Past Highlights</h4>
+                        <p>January 2025 – Private Collection Reveal in Dubai</p>
+                      </div>
+                      <div class="menu-list__item-price">
+                        <span></span>
+                      </div>
+                    </li>
+                    <li class="menu-list__item">
+                      <div class="menu-list__item-desc">
+                        <h4>Past Highlights</h4>
+                        <p>March 2025 – London Fashion Summit</p>
+                      </div>
+                      <div class="menu-list__item-price">
+                        <span></span>
+                      </div>
+                    </li>
+                  </ul>
+                  <!-- end menu-list -->
+                </div>
+                <!-- end menu-block__group -->
+
+                <!-- end menu-block__group -->
+
+                <!-- end menu-block__group -->
+
+                <!-- end menu-block__group -->
+              </div>
+              <!-- end menu-block -->
+            </div>
+          </div>
+          <!-- end content-block -->
+
+          <div
+            class="row width-narrower row-x-center content-block content-block--grey cta-block"
+          >
+            <div class="column xl-10 mob-12">
+              <h3>Be Part of the Mozart Experience</h3>
+              <p class="attention-getter">
+                Want exclusive access to our events? Join our Mozart Insider
+                List and be the first to receive invitations to our most coveted
+                fashion experiences.
+                Step into a world where fashion meets artistry. See you at the next event.
+              </p>
+              <a href="reservations.html" class="btn btn--primary u-fullwidth"
+                >Book a Table Now</a
               >
-                <fieldset class="row">
-                  <div class="column xl-6 tab-12">
-                    <label for="rname">Full Name: </label>
-                    <input
-                      type="text"
-                      name="rame"
-                      id="rname"
-                      class="u-fullwidth"
-                      placeholder="Enter Your Name"
-                      value=""
-                    />
-                  </div>
-
-                  <div class="column xl-6 tab-12">
-                    <label for="rphone">Contact Number: </label>
-                    <input
-                      type="tel"
-                      name="rphone"
-                      id="rphone"
-                      class="u-fullwidth"
-                      placeholder="Enter Your Contact No."
-                      value=""
-                    />
-                  </div>
-
-                  <div class="column xl-6 tab-12">
-                    <label for="rdate">Date: </label>
-                    <input
-                      type="text"
-                      name="rdate"
-                      id="rdate"
-                      class="u-fullwidth"
-                      placeholder="eg: 8/01/2023"
-                      value=""
-                    />
-                  </div>
-
-                  <div class="column xl-6 tab-12">
-                    <label for="rparty-size">Number of Security Personnel Needed (approx):</label>
-                    <input
-                      type="number"
-                      name="rparty-size"
-                      id="rparty-size"
-                      class="u-fullwidth"
-                      placeholder="eg: 4"
-                      value=""
-                    />
-                  </div>
-
-                  <div class="column xl-12 message u-add-bottom">
-                    <label for="radd-info">Additional Information: </label>
-                    <textarea
-                      name="radd-info"
-                      id="radd-info"
-                      class="u-fullwidth"
-                      placeholder="Type your additional info here"
-                    ></textarea>
-                  </div>
-
-                  <div class="rform__bottom column xl-12">
-                    <div class="row">
-                      <div class="column xl-6 tab-12">
-                        <label class="rcheckbox u-add-bottom">
-                          <input type="checkbox" />
-                          <span class="label-text"
-                            >I agree to Mozart's reservation policies and terms.
-                            </span
-                          >
-                        </label>
-                      </div>
-
-                      <div class="column xl-6 tab-12">
-                        <input
-                          name="submit"
-                          id="submit"
-                          class="btn btn--primary btn-wide btn--large u-fullwidth"
-                          value="Submit Reservation"
-                          type="submit"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </fieldset>
-              </form>
             </div>
           </div>
           <!-- end content-block -->
@@ -558,7 +555,6 @@
         </div>
         <!-- end ss-go-top -->
       </footer>
-      <!-- end s-footer -->
     </div>
     <!-- end page-wrap -->
 
