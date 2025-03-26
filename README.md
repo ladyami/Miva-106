@@ -37,10 +37,9 @@ This project was developed by the following team members:
 - Sandra  
 
 ## Screenshot  
-![Mozart Fashion House](path/to/your/image.png)  
+![Mozart Fashion House]
+https://github.com/ladyami/Miva-106/blob/main/Mozart%20-%20Google%20Chrome%203_26_2025%201_09_00%20AM.png 
 
-*(Replace `path/to/your/image.png` with the actual image path in your repository.)*  
+
 
 ---
-
-Copy and paste this into your `README.md` file on GitHub. Let me know if you need modifications!  
