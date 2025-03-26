@@ -1,0 +1,4 @@
+[[redirects]]
+from = "/*"
+to = '/Miva-assignment/index.html"
+status = 200
