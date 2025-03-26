@@ -37,8 +37,8 @@ This project was developed by the following team members:
 - Sandra  
 
 ## Screenshot  
-![Mozart Fashion House]
-https://github.com/ladyami/Miva-106/blob/main/Mozart%20-%20Google%20Chrome%203_26_2025%201_09_00%20AM.png 
+![Mozart Fashion House](https://github.com/ladyami/Miva-106/blob/main/Mozart%20-%20Google%20Chrome%203_26_2025%201_09_00%20AM.png)
+
 
 
 
